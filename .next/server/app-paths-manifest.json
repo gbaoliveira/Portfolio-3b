@@ -1,6 +1,6 @@
 {
+  "/planejamento/page": "app/planejamento/page.js",
   "/trabalhos/page": "app/trabalhos/page.js",
   "/home/page": "app/home/page.js",
-  "/sobre/page": "app/sobre/page.js",
-  "/planejamento/page": "app/planejamento/page.js"
+  "/sobre/page": "app/sobre/page.js"
 }

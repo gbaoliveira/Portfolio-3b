@@ -10,10 +10,9 @@ const navigation = [
   { name: 'Planejamento', href: '/planejamento', current: false },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+function classNames(...classes: Array<string>) {
+  return classes.filter(Boolean).join(' ');
 }
-
 export default function Example() {
   const [name, setName] = useState()
   return (

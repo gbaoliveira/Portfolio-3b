@@ -56,17 +56,25 @@
         "async": false
       }
     },
-    "(app-client)/./app/sobre/page.tsx": {
+    "(app-client)/./components/Header.tsx": {
       "*": {
-        "id": "(sc_client)/./app/sobre/page.tsx",
+        "id": "(sc_client)/./components/Header.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./components/Header.tsx": {
+    "(app-client)/./app/page.tsx": {
       "*": {
-        "id": "(sc_client)/./components/Header.tsx",
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/sobre/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/sobre/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -235,14 +243,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\sobre\\page.tsx": {
-      "id": "(app-client)/./app/sobre/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/sobre/page:static/chunks/app/sobre/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\gbaol\\portfolio-3b\\components\\Header.tsx": {
       "id": "(app-client)/./components/Header.tsx",
       "name": "*",
@@ -250,9 +250,33 @@
         "app/planejamento/page:static/chunks/app/planejamento/page.js"
       ],
       "async": false
+    },
+    "C:\\Users\\gbaol\\portfolio-3b\\app\\page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\gbaol\\portfolio-3b\\app\\sobre\\page.tsx": {
+      "id": "(app-client)/./app/sobre/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/sobre/page:static/chunks/app/sobre/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
+    "C:\\Users\\gbaol\\portfolio-3b\\app\\home\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\gbaol\\portfolio-3b\\app\\page": {
+      "modules": [],
+      "files": []
+    },
     "C:\\Users\\gbaol\\portfolio-3b\\app\\layout": {
       "modules": [
         "C:\\Users\\gbaol\\portfolio-3b\\app\\globals.css",
@@ -263,10 +287,6 @@
       ]
     },
     "C:\\Users\\gbaol\\portfolio-3b\\app\\sobre\\page": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\home\\page": {
       "modules": [],
       "files": []
     },
