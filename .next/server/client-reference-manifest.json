@@ -56,20 +56,6 @@
         "async": false
       }
     },
-<<<<<<< HEAD
-    "(app-client)/./app/home/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/home/page.tsx",
-=======
-    "(app-client)/./components/Header.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/Header.tsx",
->>>>>>> 8ad6d8e22f2aa7e375fb28684e2cab5a3543af41
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/page.tsx",
@@ -86,25 +72,17 @@
         "async": false
       }
     },
-    "(app-client)/./app/sobre/page.tsx": {
+    "(app-client)/./components/Header.tsx": {
       "*": {
-        "id": "(sc_client)/./app/sobre/page.tsx",
+        "id": "(sc_client)/./components/Header.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./app/autorias/page.tsx": {
+    "(app-client)/./app/home/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/autorias/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/trabalhos/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/trabalhos/page.tsx",
+        "id": "(sc_client)/./app/home/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -273,51 +251,6 @@
       ],
       "async": false
     },
-<<<<<<< HEAD
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\home\\page.tsx": {
-      "id": "(app-client)/./app/home/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/home/page:static/chunks/app/home/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\gbaol\\portfolio-3b\\components\\Header.tsx": {
-      "id": "(app-client)/./components/Header.tsx",
-      "name": "*",
-      "chunks": [
-        "app/trabalhos/page:static/chunks/app/trabalhos/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\sobre\\page.tsx": {
-      "id": "(app-client)/./app/sobre/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/sobre/page:static/chunks/app/sobre/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\autorias\\page.tsx": {
-      "id": "(app-client)/./app/autorias/page.tsx",
-=======
-    "C:\\Users\\gbaol\\portfolio-3b\\components\\Header.tsx": {
-      "id": "(app-client)/./components/Header.tsx",
->>>>>>> 8ad6d8e22f2aa7e375fb28684e2cab5a3543af41
-      "name": "*",
-      "chunks": [
-        "app/autorias/page:static/chunks/app/autorias/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\trabalhos\\page.tsx": {
-      "id": "(app-client)/./app/trabalhos/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/trabalhos/page:static/chunks/app/trabalhos/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\gbaol\\portfolio-3b\\app\\page.tsx": {
       "id": "(app-client)/./app/page.tsx",
       "name": "*",
@@ -333,25 +266,28 @@
         "app/sobre/page:static/chunks/app/sobre/page.js"
       ],
       "async": false
+    },
+    "C:\\Users\\gbaol\\portfolio-3b\\components\\Header.tsx": {
+      "id": "(app-client)/./components/Header.tsx",
+      "name": "*",
+      "chunks": [
+        "app/home/page:static/chunks/app/home/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\gbaol\\portfolio-3b\\app\\home\\page.tsx": {
+      "id": "(app-client)/./app/home/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/home/page:static/chunks/app/home/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\home\\page": {
-<<<<<<< HEAD
-      "modules": [
-        "C:\\Users\\gbaol\\portfolio-3b\\app\\globals.css"
-      ],
-      "files": [
-        "static/css/app/home/page.css"
-      ]
-=======
-      "modules": [],
-      "files": []
-    },
     "C:\\Users\\gbaol\\portfolio-3b\\app\\page": {
       "modules": [],
       "files": []
->>>>>>> 8ad6d8e22f2aa7e375fb28684e2cab5a3543af41
     },
     "C:\\Users\\gbaol\\portfolio-3b\\app\\layout": {
       "modules": [
@@ -366,20 +302,13 @@
       "modules": [],
       "files": []
     },
-<<<<<<< HEAD
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\planejamento\\page": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\autorias\\page": {
-      "modules": [],
-      "files": []
-    },
-=======
->>>>>>> 8ad6d8e22f2aa7e375fb28684e2cab5a3543af41
-    "C:\\Users\\gbaol\\portfolio-3b\\app\\trabalhos\\page": {
-      "modules": [],
-      "files": []
+    "C:\\Users\\gbaol\\portfolio-3b\\app\\home\\page": {
+      "modules": [
+        "C:\\Users\\gbaol\\portfolio-3b\\app\\globals.css"
+      ],
+      "files": [
+        "static/css/app/home/page.css"
+      ]
     }
   }
 }

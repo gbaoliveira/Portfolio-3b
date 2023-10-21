@@ -1,12 +1,5 @@
 {
-<<<<<<< HEAD
-  "/home/page": "app/home/page.js",
-  "/planejamento/page": "app/planejamento/page.js",
-  "/autorias/page": "app/autorias/page.js"
-=======
-  "/planejamento/page": "app/planejamento/page.js",
-  "/trabalhos/page": "app/trabalhos/page.js",
-  "/home/page": "app/home/page.js",
-  "/sobre/page": "app/sobre/page.js"
->>>>>>> 8ad6d8e22f2aa7e375fb28684e2cab5a3543af41
+  "/page": "app/page.js",
+  "/sobre/page": "app/sobre/page.js",
+  "/home/page": "app/home/page.js"
 }
