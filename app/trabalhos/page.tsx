@@ -32,7 +32,7 @@ const Trabalhos = () => {
 
   const [filteredWorks, setFilteredWorks] = useState(works);
 
-  const filterBySubject = (subject) => {
+  const filterBySubject = (subject: string) => {
     if (subject === 'Todas') {
       setFilteredWorks(works);
     } else {
