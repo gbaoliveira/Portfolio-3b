@@ -1,5 +1,11 @@
 {
   "pages": {
+    "/home/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/home/page.css",
+      "static/chunks/app/home/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -11,20 +17,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/sobre/page.js"
     ],
-    "/home/page": [
+    "/planejamento/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/home/page.js"
+      "static/chunks/app/planejamento/page.js"
+    ],
+    "/autorias/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/autorias/page.js"
     ],
     "/trabalhos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/trabalhos/page.js"
-    ],
-    "/planejamento/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/planejamento/page.js"
     ]
   }
 }

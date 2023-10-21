@@ -1,30 +1,45 @@
+'use client'
 import React from 'react'
 import { Header } from '../../components/index';
+import '../globals.css'
 
 const Home = () => {
+
+  const handleLinkedInClick = () => {
+    window.location.href = 'https://www.linkedin.com/in/gbaoliveira/';
+  };
+
+  const handleGitHubClick = () => {
+    window.location.href = 'https://github.com/gbaoliveira';
+  };
+  
   return (
-<div  className='home h-screen bg-cover' style={{ backgroundImage: `url("/bg3.png")`}}>
-<Header />
-<div className='shadow-lg bg-sky-500/30 backdrop-filter backdrop-blur-lg  max-w-md sm:items-center mx-auto rounded-lg my-20'>
-    <div className='home'>
-     <div className='max-w-sm mx-auto sm:items-center pt-10'>
-        <h1 className='font-bold text-3xl mb-4 '>
-            Bem vindo ao meu portfólio!
-        </h1>
-        <p className="text-xl mono">
-        Sou aluno do Sesi Senai e me chamo Gabriel Antônio. Aqui estarei postando minhas atividades junto com meu planejamento semanal. Tenho Habilidades em 
-        React | Javascript | Typescript | HTML & CSS
-        </p>
+<div>
+  <div className="w-screen h-screen bg-no-repeat bg-cover" style={{ backgroundImage: `url("/pixel-art.gif")` }}>
+    <Header />
+  </div>
+
+  <section className='relative bg-no-repeat bg-cover py-36'>
+    <div className='text-center'>
+      <p className="text-sky-200 z-10 relative text-5xl font-custom">Esse site foi feito em</p>
     </div>
-</div>
-    <div className="py-8 px-8 max-w-sx mx-auto rounded-lg sm:flex sm:items-center">
-        <img className="block mx-auto h-45 rounded-full sm:mx-0 sm:shrink-0" src="/pfp.png" alt="profile"/>
+    <div className='mt-2 text-center flex justify-center items-center relative z-10'>
+      <img className="w-24 mx-4" src="/react.png" alt="React Logo" />
+      <div className="text-white text-xl mx-4">+</div>
+      <img className="w-60 mx-4" src="/tailwind.png" alt="Tailwind CSS Logo" />
+      <div className="text-white text-xl mx-4">+</div>
+      <img className="w-36 mx-4" src="/nextjs.png" alt="Next.js Logo" />
     </div>
-    <a href='https://portfolio-gbaoliveira-2b.netlify.app' className='max-w-fit sm:flex mx-auto border-2 px-0.5 rounded mono border-black bg-slate-950'>Link do portfólio do 2 ano</a>
+    <div className="absolute top-0 left-0 right-0 bottom-0 filter blur-md z-0 bg-no-repeat bg-cover" style={{ backgroundImage: `url("/fundo2.gif")` }}></div>
+  </section>
+
+  <footer>
+    <div className='max-w-fit mx-auto py-8 px-8 sm:items-center'>
     </div>
-    
+  </footer>
 </div>
   )
 }
+
 
 export default Home
