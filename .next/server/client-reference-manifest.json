@@ -56,14 +56,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/home/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/home/page.tsx",
@@ -83,6 +75,22 @@
     "(app-client)/./app/autorias/page.tsx": {
       "*": {
         "id": "(sc_client)/./app/autorias/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./app/trabalhos/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/trabalhos/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -251,14 +259,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\page.tsx": {
-      "id": "(app-client)/./app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\home\\page.tsx": {
       "id": "(app-client)/./app/home/page.tsx",
       "name": "*",
@@ -271,7 +271,7 @@
       "id": "(app-client)/./components/Header.tsx",
       "name": "*",
       "chunks": [
-        "app/autorias/page:static/chunks/app/autorias/page.js"
+        "app/trabalhos/page:static/chunks/app/trabalhos/page.js"
       ],
       "async": false
     },
@@ -282,9 +282,33 @@
         "app/autorias/page:static/chunks/app/autorias/page.js"
       ],
       "async": false
+    },
+    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\trabalhos\\page.tsx": {
+      "id": "(app-client)/./app/trabalhos/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/trabalhos/page:static/chunks/app/trabalhos/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
+    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\home\\page": {
+      "modules": [
+        "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\globals.css"
+      ],
+      "files": [
+        "static/css/app/home/page.css"
+      ]
+    },
     "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\layout": {
       "modules": [
         "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\globals.css",
@@ -294,19 +318,15 @@
         "static/css/app/layout.css"
       ]
     },
+    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\autorias\\page": {
+      "modules": [],
+      "files": []
+    },
     "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\page": {
       "modules": [],
       "files": []
     },
-    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\home\\page": {
-      "modules": [
-        "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\globals.css"
-      ],
-      "files": [
-        "static/css/app/home/page.css"
-      ]
-    },
-    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\autorias\\page": {
+    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\trabalhos\\page": {
       "modules": [],
       "files": []
     }

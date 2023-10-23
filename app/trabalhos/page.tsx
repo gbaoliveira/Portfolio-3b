@@ -44,18 +44,18 @@ const Trabalhos = () => {
     <div className='w-screen min-h-screen bg-no-repeat bg-cover' style={{ backgroundImage: `url("/fundo5.gif")`}}>
       <Header />
       <div className='max-w-fit mx-auto my-4'>
-        <button onClick={() => filterBySubject('Todas')} className='px-5 mr-1.5 rounded-lg bg-black font-josefin'>Todas</button>
-        <button onClick={() => filterBySubject('Matematica')} className='px-5 mr-1.5 rounded-lg bg-black font-josefin'>Matemática</button>
-        <button onClick={() => filterBySubject('Natureza')} className='px-5 mr-1.5 rounded-lg bg-black font-josefin'>Natureza</button>
-        <button onClick={() => filterBySubject('Linguagens')} className='px-5 mr-1.5 rounded-lg bg-black font-josefin'>Linguagens</button>
-        <button onClick={() => filterBySubject('Humanas')} className='px-5 mr-1.5 rounded-lg bg-black font-josefin'>Humanas</button>
-        <button onClick={() => filterBySubject('Tecnico')} className='bg-black px-5 rounded-lg font-josefin'>Técnico</button>
+        <button onClick={() => filterBySubject('Todas')} className='text-white px-5 mr-1.5 rounded-lg bg-black font-josefin'>Todas</button>
+        <button onClick={() => filterBySubject('Matematica')} className='text-white px-5 mr-1.5 rounded-lg bg-black font-josefin'>Matemática</button>
+        <button onClick={() => filterBySubject('Natureza')} className='text-white px-5 mr-1.5 rounded-lg bg-black font-josefin'>Natureza</button>
+        <button onClick={() => filterBySubject('Linguagens')} className='text-white px-5 mr-1.5 rounded-lg bg-black font-josefin'>Linguagens</button>
+        <button onClick={() => filterBySubject('Humanas')} className='text-white px-5 mr-1.5 rounded-lg bg-black font-josefin'>Humanas</button>
+        <button onClick={() => filterBySubject('Tecnico')} className='text-white bg-black px-5 rounded-lg font-josefin'>Técnico</button>
       </div>
       <div className="max-w-fit mx-auto grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {filteredWorks.map((work) => (
           <div key={work.id} className="bg-black mt-10 rounded-lg p-4">
             <img src={work.image} className="w-32 h-32 mx-auto" />
-            <p className="text-center font-josefin mt-2">{work.title}</p>
+            <p className="text-white text-center font-josefin mt-2">{work.title}</p>
             <a href={work.link} className="block text-center text-blue-500">Ver atividade</a>
           </div>
         ))}
