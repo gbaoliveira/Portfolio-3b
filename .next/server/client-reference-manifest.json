@@ -64,9 +64,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/autorias/page.tsx": {
+    "(app-client)/./app/home/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/autorias/page.tsx",
+        "id": "(sc_client)/./app/home/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -80,9 +80,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/home/page.tsx": {
+    "(app-client)/./app/autorias/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/home/page.tsx",
+        "id": "(sc_client)/./app/autorias/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -267,11 +267,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\autorias\\page.tsx": {
-      "id": "(app-client)/./app/autorias/page.tsx",
+    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\home\\page.tsx": {
+      "id": "(app-client)/./app/home/page.tsx",
       "name": "*",
       "chunks": [
-        "app/autorias/page:static/chunks/app/autorias/page.js"
+        "app/home/page:static/chunks/app/home/page.js"
       ],
       "async": false
     },
@@ -283,11 +283,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\home\\page.tsx": {
-      "id": "(app-client)/./app/home/page.tsx",
+    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\autorias\\page.tsx": {
+      "id": "(app-client)/./app/autorias/page.tsx",
       "name": "*",
       "chunks": [
-        "app/home/page:static/chunks/app/home/page.js"
+        "app/autorias/page:static/chunks/app/autorias/page.js"
       ],
       "async": false
     },
@@ -314,10 +314,6 @@
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\autorias\\page": {
-      "modules": [],
-      "files": []
-    },
     "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\home\\page": {
       "modules": [
         "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\globals.css"
@@ -325,6 +321,10 @@
       "files": [
         "static/css/app/home/page.css"
       ]
+    },
+    "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\autorias\\page": {
+      "modules": [],
+      "files": []
     },
     "C:\\Users\\gabriel_ao_silva\\portfolio-3b\\app\\trabalhos\\page": {
       "modules": [],
