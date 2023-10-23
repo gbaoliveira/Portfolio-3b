@@ -29,7 +29,7 @@ const sobre = () => {
   </div>
   <div className='mt-5'>
     <div className='shadow-lg bg-black/60 backdrop-filter backdrop-blur-3xl max-w-fit mx-auto rounded-lg py-8 px-8 sm:items-center'>
-      <p className='pt-2 py-8 px-8 sm:items-center mx-auto text-xl font-josefin'>Minhas redes de contato:</p>
+      <p className='text-white pt-2 py-8 px-8 sm:items-center mx-auto text-xl font-josefin'>Minhas redes de contato:</p>
       <div className='flex justify-center mx-auto'>
         <img className='mr-2 ml-3 cursor-pointer w-11' src="/linkedin.svg" style={{ filter: 'invert(100%)' }} onClick={handleLinkedInClick} />
         <img className='mr-2 ml-3 cursor-pointer w-11' src="/github.svg" style={{ filter: 'invert(100%)' }} onClick={handleGitHubClick} />
