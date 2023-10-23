@@ -11,7 +11,7 @@ const Autorias = () => {
 
     <div className='mx-auto shadow-lg bg-black/60 backdrop-filter backdrop-blur-3xl sm:w-1/2 mx-4 mb-10 px-1.5'>
       <h2 className="text-white text-2xl font-bold mt-0 pt-3.5 text-center">Falando sobre o Portfólio</h2>
-      <p className='max-w-md mx-auto font-josefin mt-5'>
+      <p className='text-white max-w-md mx-auto font-josefin mt-5'>
         É pode parecer surpresa, porém o portfólio foi uma das atividades que eu mais gostei de fazer! Como mostrado na tela home, eu usei tailwind CSS, React e Next.js. Ainda acho que preciso melhorar bastante, mas gostei do resultado. Foquei em usar pixel art, que é esse estilo pixelado usado no fundo do site, por ter uma pegada mais de jogos, algo que eu gosto muito. Sobre o código, descobrir o tailwind foi uma salvação de vida, pois ele facilita muito na construção de CSS, e o React eu já estava aprendendo anteriormente, mesmo sendo o native. Foi divertido e ótimo para o meu aprendizado construir o portfólio.
       </p>
       <img className="flex-shrink-0 mx-auto mt-5" src="/programar.gif" alt="Programação" />
@@ -19,7 +19,7 @@ const Autorias = () => {
 
     <div className='mx-auto shadow-lg bg-black/60 backdrop-filter backdrop-blur-3xl sm:w-1/2 mx-4 mb-10 px-1.5'>
     <h2 className="text-white text-2xl font-bold mt-0 pt-3.5 text-center">Minhas Aulas de inglês de tarde</h2>
-      <p className='max-w-md mx-auto font-josefin mt-5'>
+      <p className='text-white max-w-md mx-auto font-josefin mt-5'>
         Normalmente segunda-feira e quarta-feira eu fico de tarde para o curso de inglês, lá eu tenho um nível
         que foi pré determinado com base no ano passado e em uma prova que fiz anteriormente. O inglês é patrocinado e feito pela cambridge já que usamos
         a plataforma dela, mas não acho que é tão complexo assim, de começo achei que por ser da cambridge seria algo desafiador e super profissional mas é bem simples, tem seus pontos
@@ -31,7 +31,7 @@ const Autorias = () => {
 
     <div className=' mx-auto shadow-lg bg-black/60 backdrop-filter backdrop-blur-3xl sm:w-1/2 mx-4 mb-10 px-1.5'>
       <h2 className="text-white text-2xl font-bold mt-0 pt-3.5 mx-3 text-center">Como é estudar no senai?</h2>
-      <p className='max-w-md mx-auto font-josefin mt-5'>
+      <p className='text-white max-w-md mx-auto font-josefin mt-5'>
         Estudar no senai é realmente um desafio, apesar de ter passado por problemas logo no primeiro ano e ter que mudar de senai (estava estudando em são josé e tive que ir para florianópolis) por conta 
         de certos alunos, consegui superar isso depois de um bom tempo para me adequar deu tudo certo. O Senai em si tem uma estrutura muito boa e com um suporte para o uso da tecnologia incrível. É 
         muito melhor não precisar ficar usando cadernos toda hora, folhas e outras coisas e usar aquilo que está disponível virtualmente, claro que o uso de materiais físicos ainda é necessário e é usado mas 
@@ -43,7 +43,7 @@ const Autorias = () => {
     
     <div className=' mx-auto shadow-lg bg-black/60 backdrop-filter backdrop-blur-3xl sm:w-1/2 mx-4 mb-10 px-1.5'>
       <h2 className="text-white text-2xl font-bold mt-0 pt-3.5 mx-3 text-center">Por que programação de jogos?</h2>
-      <p className='max-w-md mx-auto font-josefin mt-5'>
+      <p className='text-white max-w-md mx-auto font-josefin mt-5'>
        Dês de criança meu pai sempre jogava várias coisas em consoles antigos, eu sempre gostei muito de assistir até ter idade o suficiente para começar a jogar aquilo que apenas assistia,
        poder mergulhar em um mundo novo e interagir com ele de alguma forma, apertando botões, fazendo escolhas ou apenas jogando algo bobo que nem precise pensar é extremamente divertido.
        Sabendo da diversão que passei, jogar jogos ainda é meu principal hobby, quando descobri a programação a primeira coisa que fiz foi tentar programar um jogo, com isso eu descobri o extremo

@@ -33,7 +33,7 @@ const Home = () => {
     <div className="absolute top-0 left-0 right-0 bottom-0 filter blur-md z-0 bg-no-repeat bg-cover" style={{ backgroundImage: `url("/fundo2.gif")` }}></div>
   </section>
 
-  <footer>
+  <footer className='bg-black'>
     <div className='max-w-fit mx-auto py-8 px-8 sm:items-center'>
     </div>
   </footer>

@@ -19,7 +19,7 @@ const sobre = () => {
 <div className='w-screen min-h-screen bg-no-repeat bg-cover' style={{ backgroundImage: `url("/fish.gif")` }}>
   <Header />
   <div className='shadow-lg bg-black/60 backdrop-filter backdrop-blur-3xl max-w-fit sm:flex mx-auto rounded-lg mt-10'>
-    <p className='mt-0 pt-3.5 mr-2 ml-3 max-w-sm mx-auto sm:items-center mb-5 font-josefin'>
+    <p className='text-white mt-0 pt-3.5 mr-2 ml-3 max-w-sm mx-auto sm:items-center mb-5 font-josefin'>
       Meu nome é Gabriel Antônio e tenho 18 anos, estou no terceiro ano do ensino médio e aprendendo programação, principalmente de jogos,
       sites e aplicativos. Atualmente não sei muito bem onde eu pretendo me aprofundar na área, porém, gosto muito de programação de jogos e até um tempo
       átras pensava que iria focar 100% nisso, mas atualmente estou criando interesse em outras áreas na programação, tanto de programação de aplicativos, quanto hacking. Após finalizar o ensino médio
