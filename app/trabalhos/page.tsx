@@ -11,7 +11,7 @@ const Trabalhos = () => {
     { id: 5, subject: 'Humanas', title: 'Regimes totalitários', image: '/humanas.png', link: 'https://docs.google.com/presentation/d/1GE662KIPiyGwqtjlVICe12NuQ_nf1xbAfM1TUpiQb2o/edit?usp=sharing' },
     { id: 6, subject: 'Humanas', title: 'Era Vargas', image: '/humanas.png', link: 'https://drive.google.com/file/d/11iBBqesH9TI1yVlrbuSyRNu3QLfS1oQd/view?usp=share_link' },
     { id: 7, subject: 'Linguagens', title: 'Resenha Crítica', image: '/linguagens.png', link: 'https://docs.google.com/document/d/1HMRiIalwJszih2pgkg6S1-3_ssal9rtFDlimQ7MNExM/edit?usp=sharing' },
-    { id: 8, subject: 'Linguagens', title: 'Revista Literária', image: '/linguagens.png', link: 'MUDAR' },
+    { id: 8, subject: 'Linguagens', title: 'Revista Literária', image: '/linguagens.png', link: 'https://www.canva.com/design/DAFy3YgnNps/mgCTK2Y0c3IymNDdvmKEKw/edit?utm_content=DAFy3YgnNps&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton' },
     { id: 9, subject: 'Matematica', title: 'AV MATEMÁTICA', image: '/math.png', link: 'https://drive.google.com/file/d/1m6OX474yYjkQBMU08Fo5FYpOMTRBhy7L/view?usp=share_link' },
     { id: 10, subject: 'Matematica', title: 'Filme Quebrando a banca', image: '/math.png', link: 'https://docs.google.com/document/d/1r5ImaZeZgD8u-C_nSCpZyD68YP4e8Ec0kREf3jBlMqY/edit?usp=sharing' },
     { id: 11, subject: 'Tecnico', title: 'Teoria de POO', image: '/tec.png', link: 'https://docs.google.com/document/d/1PMEfTyxG0XS3BBFb09gv128S06X7SElPxms8aT_zSsU/edit?usp=sharing' },
